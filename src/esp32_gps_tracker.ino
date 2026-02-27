@@ -27,17 +27,6 @@ void setup() {
   Serial2.begin(9600, SERIAL_8N1, 16, 17);
   delay(500);
 
-  /*Serial2.println("$PMTK251,115200*1F");
-  delay(100);
-
-  Serial2.end();
-  Serial2.begin(115200, SERIAL_8N1, 16, 17);
-  delay(500);
-  
-  Serial2.println("$PMTK220,100*2F");
-  Serial.println("GPS Initialized at 115200 Baud, 10Hz Frequency");
-
-  */
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED) {
