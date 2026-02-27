@@ -29,6 +29,16 @@ GPS Module → ESP32 → WiFi → ThingsBoard → Live Route Map
 
 ---
 
+## Filtering Strategy
+
+- Rejects coordinates near (0,0)
+- Rejects jumps > 50 meters (spike filtering)
+- Freezes position if movement < 2 meters
+- Applies Kalman filtering when stationary
+- Sends updates only when movement threshold is crossed
+
+---
+
 ## What I Learned
 - Parsing NMEA GPS data
 - Working with latitude & longitude
