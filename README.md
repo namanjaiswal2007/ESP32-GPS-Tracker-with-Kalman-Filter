@@ -43,14 +43,14 @@ GPS Module → ESP32 → WiFi → ThingsBoard → Live Route Map
 ### Hardware Setup
 ESP32 connected with L89 GPS module and powered using LiPo battery with TP4056 charging module.
 
-![Hardware Setup](images/hardware_setup.jpg)
+![Hardware Setup](Images/hardware_setup.jpeg)
 
 ---
 
 ### ThingsBoard Live Route Visualization
 Real-time GPS data streamed to ThingsBoard cloud dashboard.
 
-![ThingsBoard Dashboard](images/thingsboard_dashboard.png)
+![ThingsBoard Dashboard](Images/thingsboard_map.png)
 
 ---
 
