@@ -38,6 +38,21 @@ GPS Module → ESP32 → WiFi → ThingsBoard → Live Route Map
 - Sends updates only when movement threshold is crossed
 
 ---
+## Project Demonstration
+
+### Hardware Setup
+ESP32 connected with L89 GPS module and powered using LiPo battery with TP4056 charging module.
+
+![Hardware Setup](images/hardware_setup.jpg)
+
+---
+
+### ThingsBoard Live Route Visualization
+Real-time GPS data streamed to ThingsBoard cloud dashboard.
+
+![ThingsBoard Dashboard](images/thingsboard_dashboard.png)
+
+---
 
 ## What I Learned
 - Parsing NMEA GPS data
